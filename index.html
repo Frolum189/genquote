@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных цитат</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+</head>
+<body>
+<h1>Генератор цитат</h1>
+<p id="quoteDisplay"></p>
+<button id="nextQuote" onclick="nextQuote()">Следующая цитата ⏭️</button>
+<div class="interact">
+    <input id="newQuote">
+    <div class="buttons">
+        <button id="addQuote" onclick="addQuote()">Добавить цитату ➕</button>
+        <button id="clearQuotes" onclick="clearQuotes()">Удалить все цитаты ❌</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>
